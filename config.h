@@ -101,11 +101,11 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 #endif // MONOCLE_LAYOUT
 #endif // BAR_TABGROUPS_PATCH
 #if BAR_PANGO_PATCH
-static const char font[]                 = "Iosevka Nerd Font 13";
+static const char font[]                 = "Iosevka Nerd Font 15";
 #else
-static const char *fonts[]               = { "Iosevka Nerd Font:size=13" };
+static const char *fonts[]               = { "Iosevka Nerd Font:size=15" };
 #endif // BAR_PANGO_PATCH
-static const char dmenufont[]            = "Iosevka Nerd Font:size=13";
+static const char dmenufont[]            = "Iosevka Nerd Font:size=15";
 
 #if BAR_FLEXWINTITLE_PATCH
 static char normTTBbgcolor[]             = "#330000";
